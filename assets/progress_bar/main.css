@@ -1,0 +1,975 @@
+/* CSS Document */
+body {
+  padding: 0px; 
+  background-image:url(../../img/coding.jpg); 
+}
+
+.progress-bg {
+	margin: 0 auto;
+	width: 100%;
+	height: 20px;
+	border-radius: 25px;
+  text-align: left;
+	background: url("http://www.atsu.edu/stlclinic/images/progress-bar-bg.jpg") repeat;
+	-moz-box-shadow:    inset 0 0 10px #ccc;
+	-webkit-box-shadow: inset 0 0 10px #ccc;
+	box-shadow:         inset 0 0 10px #ccc;
+}
+
+.progress-bar {
+	height: 20px;
+	border-radius: 25px;
+	float: left;
+	width: 50%;
+	/* fallback */ 
+	background-color: #ffbf00; 
+	
+	/* Safari 4-5, Chrome 1-9 */ 
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffbf00), to(#cc0000)); 
+	
+	/* Safari 5.1, Chrome 10+ */ 
+	background: -webkit-linear-gradient(top, #ffbf00, #cc0000); 
+	
+	/* Firefox 3.6+ */ 
+	background: -moz-linear-gradient(top, #ffbf00, #cc0000); 
+	
+	/* IE 10 */ 
+	background: -ms-linear-gradient(top, #ffbf00, #cc0000); 
+	
+	/* Opera 11.10+ */ 
+	background: -o-linear-gradient(top, #ffbf00, #cc0000);	
+}
+
+.progress-bg h3.goal, .progress-bg h3.raised {
+	font-family: Arial, Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+  font-size: 1em;
+  font-weight: normal;
+	line-height:-30px;
+	margin: 0;
+	text-align: center;
+	display: inline;
+}
+
+
+.progress-bg h3.raised {
+	color: #fff;
+	margin: 0 0 25px 50px;
+	padding: 0 0 0 0;
+}
+
+.progress-bg h3.goal {
+	color: #b2b2b2;
+  text-align: center;
+}
+
+body .progress-bg h3.raised {
+    -webkit-animation: fadein 4s; /* Safari and Chrome */
+       -moz-animation: fadein 4s; /* Firefox */
+        -ms-animation: fadein 4s; /* Internet Explorer */
+         -o-animation: fadein 4s; /* Opera */
+            animation: fadein 4s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari and Chrome */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}​
+
+/* Opera */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}​
+
+.progress-bg h3.goal {
+	float: center;
+	display: inline;
+	padding: 0 25px 0 0;
+  text-align: center;
+}
+
+body .progress-bg div {
+	-webkit-animation: progress-bar 2s ease forwards;
+	-moz-animation: progress-bar 2s ease forwards;
+	-o-animation: progress-bar 2s ease forwards;
+	animation: progress-bar 2s ease forwards;
+}
+
+@-webkit-keyframes progress-bar {
+    from { width: 0%; }
+    to { width: 80%; }
+}
+
+@-moz-keyframes progress-bar {
+    from { width: 0%; }
+    to { width: 80%; }
+}
+
+@-o-keyframes progress-bar {
+    from { width: 0%; }
+    to { width: 80%; }
+}
+
+@keyframes progress-bar {
+    from { width: 0%; }
+    to { width: 80%; }
+}
+
+
+
+
+
+
+
+.progress-bg1 {
+	margin: 0 auto;
+	width: 100%;
+	height: 20px;
+	border-radius: 25px;
+  text-align: left;
+	background: url("http://www.atsu.edu/stlclinic/images/progress-bar-bg.jpg") repeat;
+	-moz-box-shadow:    inset 0 0 10px #ccc;
+	-webkit-box-shadow: inset 0 0 10px #ccc;
+	box-shadow:         inset 0 0 10px #ccc;
+}
+
+.progress-bar1 {
+	height: 20px;
+	border-radius: 25px;
+	float: left;
+	width: 50%;
+	/* fallback */ 
+	background-color: 	#bfff00; 
+	
+	/* Safari 4-5, Chrome 1-9 */ 
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(		#bfff00), to(	#ff4000)); 
+	
+	/* Safari 5.1, Chrome 10+ */ 
+	background: -webkit-linear-gradient(top, 		#bfff00, 	#ff4000); 
+	
+	/* Firefox 3.6+ */ 
+	background: -moz-linear-gradient(top, 		#bfff00, 	#ff4000); 
+	
+	/* IE 10 */ 
+	background: -ms-linear-gradient(top, 		#bfff00, 	#ff4000); 
+	
+	/* Opera 11.10+ */ 
+	background: -o-linear-gradient(top, 		#bfff00, 	#ff4000);	
+}
+
+.progress-bg1 h3.goal1, .progress-bg1 h3.raised1 {
+	font-family: Arial,sans-serif;
+  font-size: 1.0em;
+  font-weight: 300;
+	line-height: 20px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	display: inline;
+}
+
+
+.progress-bg1 h3.raised1 {
+	color: #fff;
+	margin: 14px 25px 0 50px;
+	padding: 0 25px 0 0;
+}
+
+.progress-bg1 h3.goal1 {
+	color: #b2b2b2;
+  text-align: center;
+}
+
+body .progress-bg1 h3.raised1 {
+    -webkit-animation: fadein 4s; /* Safari and Chrome */
+       -moz-animation: fadein 4s; /* Firefox */
+        -ms-animation: fadein 4s; /* Internet Explorer */
+         -o-animation: fadein 4s; /* Opera */
+            animation: fadein 4s;
+}
+.progress-bg1 h3.goal1 {
+	float: center;
+	display: inline;
+	padding: 0 25px 0 0;
+  text-align: center;
+}
+
+body .progress-bg1 div {
+	-webkit-animation: progress-bar1 4s ease forwards;
+	-moz-animation: progress-bar1 4s ease forwards;
+	-o-animation: progress-bar1 4s ease forwards;
+	animation: progress-bar1 4s ease forwards;
+}
+
+@-webkit-keyframes progress-bar1 {
+    from { width: 0%; }
+    to { width: 75%; }
+}
+
+@-moz-keyframes progress-bar1 {
+    from { width: 0%; }
+    to { width: 75%; }
+}
+
+@-o-keyframes progress-bar1 {
+    from { width: 0%; }
+    to { width: 75%; }
+}
+
+@keyframes progress-bar1 {
+    from { width: 0%; }
+    to { width: 75%; }
+}
+
+
+
+
+
+.progress-bg2 {
+	margin: 0 auto;
+	width: 100%;
+	height: 20px;
+	border-radius: 25px;
+  text-align: left;
+	background: url("http://www.atsu.edu/stlclinic/images/progress-bar-bg.jpg") repeat;
+	-moz-box-shadow:    inset 0 0 10px #ccc;
+	-webkit-box-shadow: inset 0 0 10px #ccc;
+	box-shadow:         inset 0 0 10px #ccc;
+}
+
+.progress-bar2 {
+	height: 20px;
+	border-radius: 25px;
+	float: left;
+	width: 50%;
+	/* fallback */ 
+	background-color: 	#ffff00; 
+	
+	/* Safari 4-5, Chrome 1-9 */ 
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffff00), to(#0080ff)); 
+	
+	/* Safari 5.1, Chrome 10+ */ 
+	background: -webkit-linear-gradient(top, #ffff00, #0080ff); 
+	
+	/* Firefox 3.6+ */ 
+	background: -moz-linear-gradient(top, #ffff00, #0080ff); 
+	
+	/* IE 10 */ 
+	background: -ms-linear-gradient(top, #ffff00, #0080ff); 
+	
+	/* Opera 11.10+ */ 
+	background: -o-linear-gradient(top, #ffff00, #0080ff);	
+}
+
+.progress-bg2 h3.goal2, .progress-bg2 h3.raised2 {
+	font-family: Arial,sans-serif;
+  font-size: 1.0em;
+  font-weight: 300;
+	line-height: 20px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	display: inline;
+}
+
+
+.progress-bg2 h3.raised2 {
+	color: #fff;
+	margin: 14px 25px 0 50px;
+	padding: 0 25px 0 0;
+}
+
+.progress-bg2 h3.goal2 {
+	color: #b2b2b2;
+  text-align: center;
+}
+
+body .progress-bg2 h3.raised2 {
+    -webkit-animation: fadein 4s; /* Safari and Chrome */
+       -moz-animation: fadein 4s; /* Firefox */
+        -ms-animation: fadein 4s; /* Internet Explorer */
+         -o-animation: fadein 4s; /* Opera */
+            animation: fadein 4s;
+}
+.progress-bg2 h3.goal2 {
+	float: center;
+	display: inline;
+	padding: 0 25px 0 0;
+  text-align: center;
+}
+
+body .progress-bg2 div {
+	-webkit-animation: progress-bar2 6s ease forwards;
+	-moz-animation: progress-bar2 6s ease forwards;
+	-o-animation: progress-bar2 6s ease forwards;
+	animation: progress-bar2 6s ease forwards;
+}
+
+@-webkit-keyframes progress-bar2 {
+    from { width: 0%; }
+    to { width: 70%; }
+}
+
+@-moz-keyframes progress-bar2 {
+    from { width: 0%; }
+    to { width: 70%; }
+}
+
+@-o-keyframes progress-bar2 {
+    from { width: 0%; }
+    to { width: 70%; }
+}
+
+@keyframes progress-bar2 {
+    from { width: 0%; }
+    to { width: 70%; }
+}
+
+
+
+
+
+.progress-bg3 {
+	margin: 0 auto;
+	width: 100%;
+	height: 20px;
+	border-radius: 25px;
+  text-align: left;
+	background: url("http://www.atsu.edu/stlclinic/images/progress-bar-bg.jpg") repeat;
+	-moz-box-shadow:    inset 0 0 10px #ccc;
+	-webkit-box-shadow: inset 0 0 10px #ccc;
+	box-shadow:         inset 0 0 10px #ccc;
+}
+
+.progress-bar3 {
+	height: 20px;
+	border-radius: 25px;
+	float: left;
+	width: 50%;
+	/* fallback */ 
+	background-color: 	#00ff00; 
+	
+	/* Safari 4-5, Chrome 1-9 */ 
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#00ff00), to(#bf00ff)); 
+	
+	/* Safari 5.1, Chrome 10+ */ 
+	background: -webkit-linear-gradient(top, #00ff00, #bf00ff); 
+	
+	/* Firefox 3.6+ */ 
+	background: -moz-linear-gradient(top, #00ff00, #bf00ff); 
+	
+	/* IE 10 */ 
+	background: -ms-linear-gradient(top, #00ff00, #bf00ff); 
+	
+	/* Opera 11.10+ */ 
+	background: -o-linear-gradient(top, #00ff00, #bf00ff);	
+}
+
+.progress-bg3 h3.goal3, .progress-bg3 h3.raised3 {
+	font-family: Arial,sans-serif;
+  font-size: 1.0em;
+  font-weight: 300;
+	line-height: 20px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	display: inline;
+}
+
+
+.progress-bg3 h3.raised3 {
+	color: #fff;
+	margin: 14px 25px 0 50px;
+	padding: 0 25px 0 0;
+}
+
+.progress-bg3 h3.goal3 {
+	color: #b2b2b2;
+  text-align: center;
+}
+
+body .progress-bg3 h3.raised3 {
+    -webkit-animation: fadein 4s; /* Safari and Chrome */
+       -moz-animation: fadein 4s; /* Firefox */
+        -ms-animation: fadein 4s; /* Internet Explorer */
+         -o-animation: fadein 4s; /* Opera */
+            animation: fadein 4s;
+}
+.progress-bg3 h3.goal3 {
+	float: center;
+	display: inline;
+	padding: 0 25px 0 0;
+  text-align: center;
+}
+
+body .progress-bg3 div {
+	-webkit-animation: progress-bar3 8s ease forwards;
+	-moz-animation: progress-bar3 8s ease forwards;
+	-o-animation: progress-bar3 8s ease forwards;
+	animation: progress-bar3 8s ease forwards;
+}
+
+@-webkit-keyframes progress-bar3 {
+    from { width: 0%; }
+    to { width: 70%; }
+}
+
+@-moz-keyframes progress-bar3 {
+    from { width: 0%; }
+    to { width: 70%; }
+}
+
+@-o-keyframes progress-bar3 {
+    from { width: 0%; }
+    to { width: 70%; }
+}
+
+@keyframes progress-bar3 {
+    from { width: 0%; }
+    to { width: 70%; }
+}
+
+
+
+
+
+
+.progress-bg4 {
+	margin: 0 auto;
+	width: 100%;
+	height: 20px;
+	border-radius: 25px;
+  text-align: left;
+	background: url("http://www.atsu.edu/stlclinic/images/progress-bar-bg.jpg") repeat;
+	-moz-box-shadow:    inset 0 0 10px #ccc;
+	-webkit-box-shadow: inset 0 0 10px #ccc;
+	box-shadow:         inset 0 0 10px #ccc;
+}
+
+.progress-bar4 {
+	height: 20px;
+	border-radius: 25px;
+	float: left;
+	width: 50%;
+	/* fallback */ 
+	background-color: 		#A52A2A; 
+	
+	/* Safari 4-5, Chrome 1-9 */ 
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(	#A52A2A), to(#E04644)); 
+	
+	/* Safari 5.1, Chrome 10+ */ 
+	background: -webkit-linear-gradient(top, #A52A2A, #E04644); 
+	
+	/* Firefox 3.6+ */ 
+	background: -moz-linear-gradient(top, 	#A52A2A, #E04644); 
+	
+	/* IE 10 */ 
+	background: -ms-linear-gradient(top, 	#A52A2A, #E04644); 
+	
+	/* Opera 11.10+ */ 
+	background: -o-linear-gradient(top, 	#A52A2A, #E04644);	
+}
+
+.progress-bg4 h3.goal4, .progress-bg4 h3.raised4 {
+	font-family: Arial,sans-serif;
+  font-size: 1.0em;
+  font-weight: 300;
+	line-height: 20px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	display: inline;
+}
+
+
+.progress-bg4 h3.raised4 {
+	color: #fff;
+	margin: 14px 25px 0 50px;
+	padding: 0 25px 0 0;
+}
+
+.progress-bg4 h3.goal4 {
+	color: #b2b2b2;
+  text-align: center;
+}
+
+body .progress-bg4 h3.raised4 {
+    -webkit-animation: fadein 4s; /* Safari and Chrome */
+       -moz-animation: fadein 4s; /* Firefox */
+        -ms-animation: fadein 4s; /* Internet Explorer */
+         -o-animation: fadein 4s; /* Opera */
+            animation: fadein 4s;
+}
+.progress-bg4 h3.goal4 {
+	float: center;
+	display: inline;
+	padding: 0 25px 0 0;
+  text-align: center;
+}
+
+body .progress-bg4 div {
+	-webkit-animation: progress-bar4 10s ease forwards;
+	-moz-animation: progress-bar4 10s ease forwards;
+	-o-animation: progress-bar4 10s ease forwards;
+	animation: progress-bar4 10s ease forwards;
+}
+
+@-webkit-keyframes progress-bar4 {
+    from { width: 0%; }
+    to { width: 65%; }
+}
+
+@-moz-keyframes progress-bar4 {
+    from { width: 0%; }
+    to { width: 65%; }
+}
+
+@-o-keyframes progress-bar4 {
+    from { width: 0%; }
+    to { width: 65%; }
+}
+
+@keyframes progress-bar4 {
+    from { width: 0%; }
+    to { width: 65%; }
+}
+
+
+
+
+
+
+
+.progress-bg5 {
+	margin: 0 auto;
+	width: 100%;
+	height: 20px;
+	border-radius: 25px;
+  text-align: left;
+	background: url("http://www.atsu.edu/stlclinic/images/progress-bar-bg.jpg") repeat;
+	-moz-box-shadow:    inset 0 0 10px #ccc;
+	-webkit-box-shadow: inset 0 0 10px #ccc;
+	box-shadow:         inset 0 0 10px #ccc;
+}
+
+.progress-bar5 {
+	height: 20px;
+	border-radius: 25px;
+	float: left;
+	width: 50%;
+	/* fallback */ 
+	background-color: #00bfff; 
+	
+	/* Safari 4-5, Chrome 1-9 */ 
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#00bfff), to(#ff00bf)); 
+	
+	/* Safari 5.1, Chrome 10+ */ 
+	background: -webkit-linear-gradient(top, #00bfff, #ff00bf); 
+	
+	/* Firefox 3.6+ */ 
+	background: -moz-linear-gradient(top, #00bfff, #ff00bf); 
+	
+	/* IE 10 */ 
+	background: -ms-linear-gradient(top, #00bfff, #ff00bf); 
+	
+	/* Opera 11.10+ */ 
+	background: -o-linear-gradient(top, #00bfff, #ff00bf);	
+}
+
+.progress-bg5 h3.goal5, .progress-bg5 h3.raised5 {
+	font-family: Arial,sans-serif;
+  font-size: 1.0em;
+  font-weight: 300;
+	line-height: 20px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	display: inline;
+}
+
+
+.progress-bg5 h3.raised5 {
+	color: #fff;
+	margin: 14px 25px 0 50px;
+	padding: 0 25px 0 0;
+}
+
+.progress-bg5 h3.goal5 {
+	color: #b2b2b2;
+  text-align: center;
+}
+
+body .progress-bg5 h3.raised5 {
+    -webkit-animation: fadein 4s; /* Safari and Chrome */
+       -moz-animation: fadein 4s; /* Firefox */
+        -ms-animation: fadein 4s; /* Internet Explorer */
+         -o-animation: fadein 4s; /* Opera */
+            animation: fadein 4s;
+}
+.progress-bg5 h3.goal5 {
+	float: center;
+	display: inline;
+	padding: 0 25px 0 0;
+  text-align: center;
+}
+
+body .progress-bg5 div {
+	-webkit-animation: progress-bar5 12s ease forwards;
+	-moz-animation: progress-bar5 12s ease forwards;
+	-o-animation: progress-bar5 12s ease forwards;
+	animation: progress-bar5 12s ease forwards;
+}
+
+@-webkit-keyframes progress-bar5 {
+    from { width: 0%; }
+    to { width: 60%; }
+}
+
+@-moz-keyframes progress-bar5 {
+    from { width: 0%; }
+    to { width: 60%; }
+}
+
+@-o-keyframes progress-bar5 {
+    from { width: 0%; }
+    to { width: 60%; }
+}
+
+@keyframes progress-bar5 {
+    from { width: 0%; }
+    to { width: 60%; }
+}
+
+
+
+
+
+
+
+
+
+.progress-bg6 {
+	margin: 0 auto;
+	width: 100%;
+	height: 20px;
+	border-radius: 25px;
+  text-align: left;
+	background: url("http://www.atsu.edu/stlclinic/images/progress-bar-bg.jpg") repeat;
+	-moz-box-shadow:    inset 0 0 10px #ccc;
+	-webkit-box-shadow: inset 0 0 10px #ccc;
+	box-shadow:         inset 0 0 10px #ccc;
+}
+
+.progress-bar6 {
+	height: 20px;
+	border-radius: 25px;
+	float: left;
+	width: 50%;
+	/* fallback */ 
+	background-color: 		#00FFFF; 
+	
+	/* Safari 4-5, Chrome 1-9 */ 
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(	#00FFFF), to(	#FF4500)); 
+	
+	/* Safari 5.1, Chrome 10+ */ 
+	background: -webkit-linear-gradient(top, 	#00FFFF, 	#FF4500); 
+	
+	/* Firefox 3.6+ */ 
+	background: -moz-linear-gradient(top, 	#00FFFF, 	#FF4500); 
+	
+	/* IE 10 */ 
+	background: -ms-linear-gradient(top, 	#00FFFF, 	#FF4500); 
+	
+	/* Opera 11.10+ */ 
+	background: -o-linear-gradient(top, 	#00FFFF, 	#FF4500);	
+}
+
+.progress-bg6 h3.goal6, .progress-bg6 h3.raised6 {
+	font-family: Arial,sans-serif;
+  font-size: 1.0em;
+  font-weight: 300;
+	line-height: 20px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	display: inline;
+}
+
+
+.progress-bg6 h3.raised6 {
+	color: #fff;
+	margin: 14px 25px 0 50px;
+	padding: 0 25px 0 0;
+}
+
+.progress-bg6 h3.goal6 {
+	color: #b2b2b2;
+  text-align: center;
+}
+
+body .progress-bg6 h3.raised6 {
+    -webkit-animation: fadein 4s; /* Safari and Chrome */
+       -moz-animation: fadein 4s; /* Firefox */
+        -ms-animation: fadein 4s; /* Internet Explorer */
+         -o-animation: fadein 4s; /* Opera */
+            animation: fadein 4s;
+}
+.progress-bg6 h3.goal6 {
+	float: center;
+	display: inline;
+	padding: 0 25px 0 0;
+  text-align: center;
+}
+
+body .progress-bg6 div {
+	-webkit-animation: progress-bar6 14s ease forwards;
+	-moz-animation: progress-bar6 14s ease forwards;
+	-o-animation: progress-bar6 14s ease forwards;
+	animation: progress-bar6 14s ease forwards;
+}
+
+@-webkit-keyframes progress-bar6 {
+    from { width: 0%; }
+    to { width: 70%; }
+}
+
+@-moz-keyframes progress-bar6 {
+    from { width: 0%; }
+    to { width: 70%; }
+}
+
+@-o-keyframes progress-bar6 {
+    from { width: 0%; }
+    to { width: 70%; }
+}
+
+@keyframes progress-bar6 {
+    from { width: 0%; }
+    to { width: 70%; }
+}
+
+
+
+
+.progress-bg7 {
+	margin: 0 auto;
+	width: 100%;
+	height: 20px;
+	border-radius: 25px;
+  text-align: left;
+	background: url("http://www.atsu.edu/stlclinic/images/progress-bar-bg.jpg") repeat;
+	-moz-box-shadow:    inset 0 0 10px #ccc;
+	-webkit-box-shadow: inset 0 0 10px #ccc;
+	box-shadow:         inset 0 0 10px #ccc;
+}
+
+.progress-bar7 {
+	height: 20px;
+	border-radius: 25px;
+	float: left;
+	width: 50%;
+	/* fallback */ 
+	background-color: 	#ffff00; 
+	
+	/* Safari 4-5, Chrome 1-9 */ 
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffff00), to(#FF0000)); 
+	
+	/* Safari 5.1, Chrome 10+ */ 
+	background: -webkit-linear-gradient(top, #ffff00, #FF0000); 
+	
+	/* Firefox 3.6+ */ 
+	background: -moz-linear-gradient(top, #ffff00, #FF0000); 
+	
+	/* IE 10 */ 
+	background: -ms-linear-gradient(top, #ffff00, #FF0000); 
+	
+	/* Opera 11.10+ */ 
+	background: -o-linear-gradient(top, #ffff00, #FF0000);	
+}
+
+.progress-bg7 h3.goal7, .progress-bg7 h3.raised7 {
+	font-family: Arial,sans-serif;
+  font-size: 1.0em;
+  font-weight: 300;
+	line-height: 20px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	display: inline;
+}
+
+
+.progress-bg7 h3.raised7 {
+	color: #fff;
+	margin: 14px 25px 0 50px;
+	padding: 0 25px 0 0;
+}
+
+.progress-bg7 h3.goal7 {
+	color: #b2b2b2;
+  text-align: center;
+}
+
+body .progress-bg7 h3.raised7 {
+    -webkit-animation: fadein 4s; /* Safari and Chrome */
+       -moz-animation: fadein 4s; /* Firefox */
+        -ms-animation: fadein 4s; /* Internet Explorer */
+         -o-animation: fadein 4s; /* Opera */
+            animation: fadein 4s;
+}
+.progress-bg7 h3.goal7 {
+	float: center;
+	display: inline;
+	padding: 0 25px 0 0;
+  text-align: center;
+}
+
+body .progress-bg7 div {
+	-webkit-animation: progress-bar7 14s ease forwards;
+	-moz-animation: progress-bar7 14s ease forwards;
+	-o-animation: progress-bar7 14s ease forwards;
+	animation: progress-bar7 14s ease forwards;
+}
+
+@-webkit-keyframes progress-bar7 {
+    from { width: 0%; }
+    to { width: 40%; }
+}
+
+@-moz-keyframes progress-bar7 {
+    from { width: 0%; }
+    to { width: 40%; }
+}
+
+@-o-keyframes progress-bar7 {
+    from { width: 0%; }
+    to { width: 40%; }
+}
+
+@keyframes progress-bar7 {
+    from { width: 0%; }
+    to { width: 40%; }
+}
+
+
+
+.progress-bg8 {
+	margin: 0 auto;
+	width: 100%;
+	height: 20px;
+	border-radius: 25px;
+  text-align: left;
+	background: url("http://www.atsu.edu/stlclinic/images/progress-bar-bg.jpg") repeat;
+	-moz-box-shadow:    inset 0 0 10px #ccc;
+	-webkit-box-shadow: inset 0 0 10px #ccc;
+	box-shadow:         inset 0 0 10px #ccc;
+}
+
+.progress-bar8 {
+	height: 20px;
+	border-radius: 25px;
+	float: left;
+	width: 50%;
+	/* fallback */ 
+	background-color: 	#ffff00; 
+	
+	/* Safari 4-5, Chrome 1-9 */ 
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffff00), to(#00FF00)); 
+	
+	/* Safari 5.1, Chrome 10+ */ 
+	background: -webkit-linear-gradient(top, #ffff00, #00FF00); 
+	
+	/* Firefox 3.6+ */ 
+	background: -moz-linear-gradient(top, #ffff00, #00FF00); 
+	
+	/* IE 10 */ 
+	background: -ms-linear-gradient(top, #ffff00, #00FF00); 
+	
+	/* Opera 11.10+ */ 
+	background: -o-linear-gradient(top, #ffff00, #00FF00);	
+}
+
+.progress-bg8 h3.goal8, .progress-bg8 h3.raised8 {
+	font-family: Arial,sans-serif;
+  font-size: 1.0em;
+  font-weight: 300;
+	line-height: 20px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	display: inline;
+}
+
+
+.progress-bg8 h3.raised8 {
+	color: #fff;
+	margin: 14px 25px 0 50px;
+	padding: 0 25px 0 0;
+}
+
+.progress-bg8 h3.goal8 {
+	color: #b2b2b2;
+  text-align: center;
+}
+
+body .progress-bg8 h3.raised8 {
+    -webkit-animation: fadein 4s; /* Safari and Chrome */
+       -moz-animation: fadein 4s; /* Firefox */
+        -ms-animation: fadein 4s; /* Internet Explorer */
+         -o-animation: fadein 4s; /* Opera */
+            animation: fadein 4s;
+}
+.progress-bg8 h3.goal8 {
+	float: center;
+	display: inline;
+	padding: 0 25px 0 0;
+  text-align: center;
+}
+
+body .progress-bg8 div {
+	-webkit-animation: progress-bar8 14s ease forwards;
+	-moz-animation: progress-bar8 14s ease forwards;
+	-o-animation: progress-bar8 14s ease forwards;
+	animation: progress-bar8 14s ease forwards;
+}
+
+@-webkit-keyframes progress-bar8 {
+    from { width: 0%; }
+    to { width: 48%; }
+}
+
+@-moz-keyframes progress-bar8 {
+    from { width: 0%; }
+    to { width: 48%; }
+}
+
+@-o-keyframes progress-bar8 {
+    from { width: 0%; }
+    to { width: 48%; }
+}
+
+@keyframes progress-bar8 {
+    from { width: 0%; }
+    to { width: 48%; }
+}
+
+
+
